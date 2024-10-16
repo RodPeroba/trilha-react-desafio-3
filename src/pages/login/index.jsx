@@ -8,7 +8,7 @@ import { api } from '../../services/api';
 import { useForm } from "react-hook-form";
 
 
-import { Container, Title, Column, TitleLogin, SubtitleLogin, EsqueciText, CriarText, Row, Wrapper } from './styles';
+import { Container, Title, Column, TitleLogin, SubtitleLogin, EsqueciText, CriarText, Row, Wrapper } from '../login/styles';
 
 const Login = () => {
 
@@ -56,7 +56,7 @@ const Login = () => {
                 </form>
                 <Row>
                     <EsqueciText>Esqueci minha senha</EsqueciText>
-                    <CriarText>Criar Conta</CriarText>
+                    <CriarText><a href="/create_account">Criar Conta</a></CriarText>
                 </Row>
                 </Wrapper>
             </Column>

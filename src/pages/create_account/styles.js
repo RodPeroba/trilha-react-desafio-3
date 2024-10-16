@@ -29,6 +29,7 @@ export const Row = styled.div`
 `
 
 
+
 export const Title = styled.h2`
     font-family: 'Open Sans';
     font-style: normal;
@@ -69,8 +70,16 @@ export const EsqueciText  = styled.p`
 
     color: #E5E044;
 ` 
+export const Paragrafo = styled.p`
+    font-family: 'Open Sans';
+    font-style: normal;    
+    margin-top = 20px;
+    font-size 12px;
 
-export const CriarText =  styled.p`
+`
+
+
+export const FazerLogin =  styled.p`
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
